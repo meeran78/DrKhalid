@@ -1,0 +1,14 @@
+{
+  "name": "drkhalid",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "packages/db"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/web",
+    "db:migrate": "cd packages/db && node -e \"console.log('Run migrations via Neon MCP or: psql $DATABASE_URL -f migrations/001_initial_schema.sql')\""
+  }
+}
