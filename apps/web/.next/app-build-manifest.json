@@ -1,25 +1,15 @@
 {
   "pages": {
-    "/physician/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/physician/page.js"
-    ],
-    "/physician/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/physician/layout.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
     ],
     "/auth/[path]/page": [
       "static/chunks/webpack.js",
@@ -51,20 +41,30 @@
       "static/chunks/main-app.js",
       "static/chunks/app/admin/approvals/page.js"
     ],
-    "/admin/schedules/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/admin/schedules/[id]/page.js"
-    ],
     "/admin/ai-schedule/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/admin/ai-schedule/page.js"
     ],
-    "/admin/physicians/page": [
+    "/roster/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/admin/physicians/page.js"
+      "static/chunks/app/roster/page.js"
+    ],
+    "/physician/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/physician/page.js"
+    ],
+    "/physician/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/physician/layout.js"
+    ],
+    "/physician/open-shifts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/physician/open-shifts/page.js"
     ]
   }
 }

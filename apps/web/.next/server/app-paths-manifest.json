@@ -1,15 +1,17 @@
 {
-  "/api/ai-schedule/generate/route": "app/api/ai-schedule/generate/route.js",
-  "/api/physicians/route": "app/api/physicians/route.js",
-  "/api/schedules/route": "app/api/schedules/route.js",
+  "/page": "app/page.js",
+  "/api/auth/[...path]/route": "app/api/auth/[...path]/route.js",
+  "/api/profile/route": "app/api/profile/route.js",
+  "/auth/[path]/page": "app/auth/[path]/page.js",
+  "/onboarding/page": "app/onboarding/page.js",
   "/api/pickups/pending/route": "app/api/pickups/pending/route.js",
-  "/api/shifts/route": "app/api/shifts/route.js",
   "/api/swaps/route": "app/api/swaps/route.js",
-  "/physician/page": "app/physician/page.js",
-  "/admin/page": "app/admin/page.js",
-  "/admin/schedules/[id]/page": "app/admin/schedules/[id]/page.js",
-  "/admin/physicians/page": "app/admin/physicians/page.js",
-  "/admin/approvals/page": "app/admin/approvals/page.js",
+  "/api/roster/route": "app/api/roster/route.js",
+  "/roster/page": "app/roster/page.js",
+  "/api/shifts/route": "app/api/shifts/route.js",
+  "/api/open-shifts/route": "app/api/open-shifts/route.js",
   "/admin/ai-schedule/page": "app/admin/ai-schedule/page.js",
-  "/admin/schedules/new/page": "app/admin/schedules/new/page.js"
+  "/admin/approvals/page": "app/admin/approvals/page.js",
+  "/physician/page": "app/physician/page.js",
+  "/physician/open-shifts/page": "app/physician/open-shifts/page.js"
 }
