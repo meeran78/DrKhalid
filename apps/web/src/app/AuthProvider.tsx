@@ -11,7 +11,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <NeonAuthUIProvider
-      authClient={authClient}
+      authClient={authClient as any}
       redirectTo="/onboarding"
       navigate={router.push}
       replace={router.replace}
